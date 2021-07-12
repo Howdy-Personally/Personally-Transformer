@@ -1,0 +1,4 @@
+animal	animal
+flower	flower
+human	human
+spirit	spirit

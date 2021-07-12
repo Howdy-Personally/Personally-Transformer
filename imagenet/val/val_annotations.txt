@@ -1,0 +1,16 @@
+001.JPG	spirit
+002.JPG	spirit
+003.JPG	spirit
+004.JPG	spirit
+005.JPG	human
+006.JPG	human
+007.JPG	human
+008.JPG	human
+009.JPG	flower
+010.JPG	flower
+011.JPG	flower
+012.JPG	flower
+013.JPG	animal
+014.JPG	animal
+015.JPG	animal
+016.JPG	animal
