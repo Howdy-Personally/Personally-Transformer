@@ -1,5 +1,14 @@
 # Swin Transformer for Image Classification
+### train
+```
+CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1 --master_port 12345 main.py --cfg configs/swin_tiny_patch4_window7_224.yaml --data-path imagenet --batch-size 64
+```
 
+### test
+```
+CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1 --master_port 12345 main.py --eval --cfg configs/swin_tiny_patch4_window7_224.yaml --resume /pth/swin_tiny_patch4_window7_224.pth --data-path imagenet
+
+```
 This folder contains the implementation of the Swin Transformer for image classification.
 
 ## Model Zoo
